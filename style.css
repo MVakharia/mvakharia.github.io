@@ -1,3 +1,61 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#backButton {
+    font-weight: bold;
+
+    background-color: rgb(63, 223, 223);
+
+    padding:10px;
+
+    border:100px;
+
+    margin:100px;
+}
+
+.hsl-red {
+    color:hsl(0, 100%, 50%);
+}
+
+.hsl-green {
+    color:hsl(100, 100%, 50%);
+}
+
+.hsl-blue {
+    color:hsl(240, 100%, 50%);
+}
+
+.hsl-purple{
+    color:hsl(270, 100%, 50%);
+}
+
+.hsl-cyan{
+    color:hsl(180, 100%, 50%);
+}
+
+.hsl-magenta{
+    color:hsl(300, 100%, 50%);
+}
+
+h1 {
+    
+}
+
+.dotted-border {
+    border-style:dotted;
+}
+
+.dashed-border {
+    border-style:dashed;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.cv-icon {
+    width:100px;
+    height:auto;
+}
