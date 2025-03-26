@@ -1,0 +1,152 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#backButton {
+    font-weight: bold;
+
+    background-color: rgb(63, 223, 223);
+
+    padding:10px;
+
+    border:100px;
+
+    margin:100px;
+}
+
+.hsl-red {
+    color:hsl(0, 100%, 50%);
+}
+
+.hsl-green {
+    color:hsl(100, 100%, 50%);
+}
+
+.hsl-blue {
+    color:hsl(240, 100%, 50%);
+}
+
+.hsl-purple{
+    color:hsl(270, 100%, 50%);
+}
+
+.hsl-cyan{
+    color:hsl(180, 100%, 50%);
+}
+
+.hsl-magenta{
+    color:hsl(300, 100%, 50%);
+}
+
+.dotted-border {
+    border-style:dotted;
+}
+
+.dashed-border {
+    border-style:dashed;
+}
+
+
+.flex-container-1 {
+    display:flex;
+
+    flex-direction:row;
+}
+
+.flex-container-2 {
+    display:flex;
+
+    flex-direction: column;
+}
+
+.flex-container-3 {
+    display:flex;
+
+    flex-direction:row;
+
+    flex-wrap: wrap;
+}
+
+.flex-container-4 {
+    display:flex;
+    flex-direction:row;
+
+    flex-wrap:nowrap;
+}
+
+.flex-container-5 {
+    display:flex;
+    flex-direction:row;
+
+    flex-wrap: wrap-reverse;
+}
+
+/*Flex-flow lets you set both direction and wrap in one line.*/
+.flex-container-6 {
+    display:flex;
+
+    flex-flow: row wrap;
+}
+
+.flex-container-7 {
+    display: flex;
+    
+    flex-flow:row-reverse wrap;
+}
+
+.flex-container-8 {
+    display:flex;
+
+    flex-flow:row wrap-reverse;
+}
+
+.flex-container-9 {
+    display:flex;
+
+    flex-flow:row-reverse wrap-reverse;
+}
+
+.flex-container-10 {
+    display:flex;
+
+    flex-flow:row wrap;
+
+    justify-content: center;
+}
+
+.flex-container-11 {
+    display:flex;
+
+    flex-flow: row wrap;
+
+    justify-content: flex-end;
+}
+
+.flex-container-12 {
+    display:flex;
+
+    flex-flow:row wrap;
+
+    justify-content:center;
+
+    align-items:stretch;
+}
+
+#whiteLetters {
+    background-color: black;
+}
+
+.cv-icon {
+    background-color: white;
+
+    width:auto;
+    height:auto;
+    max-width:150px;
+    max-height:fit-content;
+
+    padding:20px;
+
+    border:20px solid grey;
+
+    margin:20px;
+}

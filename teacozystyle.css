@@ -1,0 +1,202 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size:22px;
+    color:seashell;
+    background-color: black;
+    opacity:0.9;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 36px;
+
+    font-weight: bold;
+}
+
+
+header {
+    height: 69px;
+
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    width:auto;
+    margin-left: 10px;
+}
+
+#header-flex-container {
+    display:flex;
+
+    justify-content: space-between;
+}
+
+#logo-flex-container {
+    display:flex;
+    align-items: center;
+}
+
+#links-flex-container {
+    display:flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0px 10px;
+}
+
+#mission-container {
+    position:relative;
+
+    display:block;
+}
+
+
+img#mission-image {
+
+    width:100%;
+    height:auto;
+
+    max-width: 1200px;
+}
+
+
+#mission-container-text {
+    position:absolute;
+
+    inset: 40% 0%;
+}
+
+#container-tea-of-the-month {
+    max-width: 1000px;
+
+    margin: auto;
+
+    display:flex;
+
+    flex-flow: row wrap;
+    
+    justify-content: center;
+}
+
+.thumbnail-tea-month {
+    display:flex;
+
+    flex-direction: column;
+}
+
+.img-tea-month {
+    width:300px;
+
+    height:200px;
+
+    margin: 0px 16px;
+}
+
+
+
+
+
+#container-locations {
+    
+    
+}
+
+#container-locations-image-container {
+    
+}
+
+#container-locations-image {
+
+    object-fit: cover;
+
+    object-position: 0px 30%;
+
+    height:500px;
+
+    width:1200px;
+
+}
+
+.container-locations-flexbox {
+    position: absolute;
+
+    display:flex;
+
+    flex-direction:column;
+
+    box-sizing:border-box;
+
+    width: 100%;
+
+    z-index: 1;
+
+    background-color:rgba(0, 0, 0, 0);
+
+    top: 1650px;
+
+    left:50%;
+
+    transform: translateX(-50%);
+}
+
+
+
+
+#container-locations-boxes {
+    display:flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    background-color:rgba(0, 0, 0, 0);
+}
+
+h2#container-locations-header-text {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.container-locations-box {
+    margin:20px;
+
+    width:300px;
+
+    opacity:1;
+}
+
+#contact-info {
+    height: 200px;
+}
+
+#copyright-info {
+    display: flex;
+
+    align-items: left;
+
+    margin-left: 20px;
+}
+
+
+
+/*
+
+Use the word 'section instead of 'container'. 'container' is CSS syntax and should only be used where the context requires it. 
+
+For example:
+
+#tea-of-the-month-section
+
+*/
+
+/*
+
+
+
+
+*/
