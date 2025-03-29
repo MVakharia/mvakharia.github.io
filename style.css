@@ -1,6 +1,295 @@
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*border: 1px solid red;*/
 
-    border: 1px solid red;
+    color: white;
+
+    font-family:Lato;
 }
 
+nav ul {
+  /*border: 1px solid rgb(255, 153, 0);*/
+
+  list-style-type: none;
+
+  margin:0px 0px;
+
+  padding: 10px 0px;
+
+  width:auto;
+}
+
+nav ul li {
+
+  /*border: 1px solid rgb(255, 247, 0);*/
+
+  margin:10px 10px;
+   
+  padding: 20px 0px;
+
+  text-align: center;
+
+  display: inline;
+}
+
+nav ul li a {
+
+  /*border: 1px solid rgb(0, 255, 8);*/
+
+  background-color:#0000008f;
+
+  margin:0px 0px;
+
+  padding: 10px 10px;
+
+  text-decoration: none;
+
+  font-size: 30px;
+}
+
+nav ul li a:hover {
+  background-color: #04495c62;
+}
+
+body {
+    background: url(pawel-czerwinski-1JLIC7bnoZA-unsplash.jpg) no-repeat center fixed;
+}
+
+h1 {
+    font-weight: 900;
+
+    font-size: 60px;
+
+    text-shadow: 5px 5px 5px rgb(30, 37, 65);
+}
+
+#section-name-and-summary {
+  margin: auto;
+
+  margin-top: 200px;
+
+  max-width: 1440px;
+
+  display:flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+#section-name {
+
+  min-width: 700px;
+  
+  text-align: left;
+}
+
+#section-summary p {
+  font-size: 24px;
+
+  padding: 20px;
+
+  background-color: rgba(15, 27, 49, 0.482);
+
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+.grid {
+
+  border: 5px solid green;
+
+  display:grid;
+
+  /*Setting column widths.*/
+
+  /*Pixels only.*/
+  /*grid-template-columns: 200px 100px 50px 100px 50px;*/
+
+  /*Percentages only*/
+  /*grid-template-columns: 10% 15% 15% 30% 20% 10%;*/
+
+  /*Percentages and pixels (hybrid)*/  
+  /*grid-template-columns: 20% 30% 70px 180px;*/
+
+  /*Going out of bounds on the x-axis*/
+  /*grid-template-columns: 200px 450px;*/
+
+  /*Going out of bounds on the y-axis*/
+  /*grid-template-rows: 250px 300px;*/
+
+  /*grid-template-columns: 25% 25% 25% 25%;
+
+  grid-template-rows:25% 25% 25% 25%;*/
+
+  /*Shorthand for grid-template rows and columns.*/
+  /*grid-template: 10% 20% 30% 40% / 10% 20% 30% 40%;*/
+
+  /*4 rows, 2 columns.*/
+  /*grid-template: 25% 25% 25% 25% / 50% 50%;*/
+
+  /*5 rows, 2 columns.*/
+  /*grid-template: 15% 20% 25% 20% 20% / 50% 50%;*/
+
+  /*Hybrid values with both fractional figures and percentages.*/
+  /*grid-template: 1fr 1fr 20% 30% / 30% 30% 1fr;*/
+
+  /*Hybrid values with fractional figures, percentages, and pixel counts.*/
+  /*grid-template: 100px 1fr 50% / 200px 3fr 2fr 30%;*/
+
+  
+  /*grid-template: repeat(2, 250px) / repeat(5, 100px);*/
+
+  /*grid-template: repeat(2, 1fr) / repeat(5, 1fr);*/
+
+  /*grid-template: repeat(3, 30%) / repeat(2, 40%);*/
+
+  /*Uses the minmax() function to resize based on the size of the web browser.*/
+  /*The first column can't go below 500px wide, and can't go above 700px wide.*/
+  grid-template: 1fr 2fr 3fr 4fr / minmax(500px, 700px) 100px 100px;
+
+  /*Creates a gap of 50px between rows and a gap of 20px between columns.*/
+  gap: 50px 20px;
+
+  /*row-gap: 50px;
+  column-gap: 20px;*/
+}
+
+.box {
+  background-color: rgba(30, 47, 83, 0.81);
+
+  border-radius: 10px;
+
+  border: 5px white solid;
+
+  font-size: 30px;
+}
+
+
+.a {
+  /*Item 'a' starts on row 1.*/
+  /*grid-row-start: 1;*/
+
+  /*Item 'a' ends just before row 5.*/
+  /*grid-row-end: 5;*/
+
+  grid-row: 1 / 5;
+}
+
+.b {
+  /*Item 'b' starts on row 2.*/
+  /*grid-row-start: 2;*/
+
+  /*Item 'b' ends just before row 4.*/
+  /*grid-row-end: 4;*/
+
+  grid-row: 2 / 4;
+}
+
+.c {
+  /*Item 'c' starts on column 3.*/
+  /*grid-column-start: 3;*/
+
+  /*Item 'c' ends on column 5.*/
+  /*grid-column-end: 6;*/
+
+  grid-column: 3 / 6;
+}
+
+.d {
+  /*grid-column-start: 4;
+
+  grid-column-end: 7;*/
+
+  grid-column: 4 / 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
