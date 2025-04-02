@@ -14,3 +14,8 @@ console.log(x);
 let city = 'London';
 
 console.log(city);
+
+let temperature = 20;
+
+temperature = 11;
+
