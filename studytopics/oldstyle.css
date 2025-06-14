@@ -137,3 +137,9 @@ nav ul li {
 
     color:white;
 }
+
+.codecademycheatsheet {
+    display:flex;
+
+    justify-content: center;
+}
