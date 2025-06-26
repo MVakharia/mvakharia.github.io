@@ -60,5 +60,29 @@
 <img class="codecademycheatsheet" alt="Part of a cheat sheet."
      src="https://i.ibb.co/wh3qgm78/hash-link-to-part-of-page.png"/>
 
+<p>By default, HTML is parsed and thus the content of &lt;script&gt; tags is executed <strong>in the order that the HTML appears.</strong></p>
+
+<p>We can use the 'defer' and 'async' attributes to modify this order.</p>
+
+<p>The 'defer' attribute.</p>
+
+<ul>
+    <li>Placed inside the opening &lt;script&gt; tag.</li>
+
+    <li>Specifies that all the HTML in a webpage should be parsed <strong>before</strong> executing the script.</li>
+
+    <li>Gives the HTML a level of load order priority that is higher than the deferred script.</li>
+</ul>
+
+<p>The 'async' attribute.</p>
+
+<ul>
+    <li>Placed inside the opening &lt;script&gt; tag.</li>
+
+    <li>Specifies that all the HTML in a webpage should be parsed <strong>while</strong> executing the script.</li>
+
+    <li>Gives the HTML the same level of load order priority as the deferred script.</li>
+</ul>
+
 </body>
 </html>
