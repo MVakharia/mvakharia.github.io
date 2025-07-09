@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-    border: 1px solid white;
-
     font-family: "Cousine", sans-serif;
 
     color: white;
@@ -15,6 +13,8 @@
 
 .task {
     max-width: 600px;
+
+    margin:auto;
 }
 
 .taskNotStarted {
@@ -23,6 +23,7 @@
 
 .taskInProgress {
     background-color: yellow;
+    color: black;
 }
 
 .taskComplete {
@@ -30,12 +31,8 @@
 
 }
 
-h1 {
-
-}
-
-p {
-
+ul {
+    list-style-type: none;
 }
 
 .share-tech-mono-regular {
