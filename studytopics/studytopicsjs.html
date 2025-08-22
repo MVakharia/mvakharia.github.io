@@ -8,8 +8,6 @@
 
 <p><a href="studytopics.html">Return to study topics page.</a></p>
 
-<div class="section" id="section-javascript">
-
   <div class="section-header">
     <h2>JavaScript</h2>
 
@@ -34,7 +32,27 @@
 
   <p>typeof</p>
 
-  <p>=== vs ==</p>
+  <p>The difference between === and ==</p>
+
+<p>Loose equality with double-equals (==)</p>
+
+  <ul>
+    <li>== is loose equality. </li>
+
+    <li>When comparing, it performs a type conversion.</li>
+
+    <li>A comparison between the number 3 and the string "3" will return 'true' if loose equality is used.</li>
+  </ul>
+
+  <p>Strict equality with triple-equals (===)</p>
+
+  <ul>
+    <li>=== is strict equality.</li>
+
+    <li>When comparing, it performs no type conversions.</li>
+
+    <li>Comparing the number 3 to the string '3' will return false if strict equality is used.</li>
+  </ul>
 
   <p>Truthy and falsy</p>
 
@@ -115,7 +133,58 @@
       <a href="https://www.w3schools.com/js/js_object_accessors.asp">JavaScript Object Accessors @ w3schools</a>
     </li>
   </ul>
-</div>
+
+<h3>Mocha</h3>
+
+<p>Bash command: '$ npm install mocha -D'</p>
+
+<ul>
+  <li>'npm install' tells npm to install a package from the internet, plus any other packages that the package depends on.</li>
+  <li>'mocha' is the package we wish to download.</li>
+</ul>
+
+<br>
+
+<ul>
+  <li>'-D' signifies that this is a development dependency.</li>
+  <li>Development dependencies will show up under the 'devDependencies' section in <strong>package.json</strong>.</li>
+  <li>Development dependency packages are only included in development mode.</li>
+  <li>They are not included in the production bundle.</li>
+</ul>
+
+<h3>Assert</h3>
+
+<p>assert.equal and assert.strictEqual</p>
+
+<ul>
+  <li>assert.equal performs a '==' comparison.</li>
+
+  <li>assert.strictEqual performs a '===' comparison.</li>
+
+  <li><strong>As of July 2021, the node.js API recommends always using assert.strictEqual instead of assert.equal.</strong></li>
+</ul>
+
+<p>assert.deepStrictEqual</p>
+
+<ul>
+  <li>If two objects are created from the same class with the exact same property values,
+  they're still not considered equal when using loose or strict equality.
+  </li>
+
+  <li>If we need to compare the values within two objects, we can use assert.deepStrictEqual().</li>
+
+  <li>assert.deepStrictEqual compares the values of one object with the values of the other,
+    rather than comparing the two objects directly.</li>
+
+  <li>We can also use deepStrictEqual to compare arrays[].</li>
+</ul>
+
+<p>Requests and Fetch API</p>
+
+<ul>
+    <li>Study this topic on W3Schools and write your own code.</li>
+</ul>
+
 
 </body>
 </html>
