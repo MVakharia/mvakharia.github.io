@@ -1,5 +1,9 @@
 body {
+    margin:50px 200px;
+
     background-color: rgb(55, 82, 96);
+
+    line-height: 200%;
 }
 
 * {
@@ -7,3 +11,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+
+/*.background {
+    display:flex;
+
+    flex-direction: row;
+
+    flex-wrap:wrap;
+
+    justify-content: space-between;
+}*/
