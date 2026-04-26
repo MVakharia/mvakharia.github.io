@@ -21,4 +21,4 @@ My background spans:
 
 In 2025 I pivoted from web development to research into **psychology**, **cognition**, and **behaviour**, guided by a lifelong tendency to see the world through the lens of **systems thinking**.
 
-InSight InMind Labs is the container for that shift: a place to synthesise decades of **observations**, **ideas**, and **design instincts** into something **new**.
+InSight InMind Labs, my research project, is a container for that shift. It's a place to synthesise decades of **observations**, **ideas**, and **design instincts** into something **new**.
