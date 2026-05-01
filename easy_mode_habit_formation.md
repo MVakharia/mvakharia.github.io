@@ -1,6 +1,6 @@
 # Habit formation on easy difficulty modes
 
-There's a subtle design problem in some games: lower difficulty settings or levels often unintentionally train players out of the behaviours expected by higher levels. Not because players avoid learning, but because systems shape habits. 
+There's a subtle design problem in some games: lower difficulty settings or levels often unintentionally train players out of the behaviours expected by higher levels. It's not that players are trying to avoid learning, it's just the way that systems shape habits. 
 
 If a challenge doesn't require a mechanic, we'll be less inclined to use it, and if it drops out of the loop, we forget it exists. 
 
@@ -8,7 +8,7 @@ You see this in action when a game's lower levels let you ignore a chunk of the 
 
 Then, players step up a difficulty level or progress through the game and suddenly feel punished for not using tools that the game never encouraged them to practice.
 
-This is a design failure, not a player failure. When lower levels don't reinforce the behaviours that the game will demand later, players build a mental model that needs to scale horizontally, rather than one that can naturally scale vertically.
+Players will feel like they failed when it's really a design failure. When lower levels don't reinforce the behaviours that the game will demand later, players build a mental model that hasn't yet scaled horizontally in the way that it needs to, rather than one that's ready to scale vertically.
 
 Rather than optimising for what will matter on a higher difficulty, players optimise for what works now. 
 
