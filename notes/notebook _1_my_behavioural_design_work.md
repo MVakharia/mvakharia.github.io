@@ -41,5 +41,5 @@ I look at techniques to reduce cognitive overstimulation before sleep, such as:
 - I design spaces that keep important cues within perception without cluttering them. 
 
 ## Energy management, behavioural sustainability, and environmental psychology
-- I consider the consequences of the Zeigarnik effect: I think about how our ‘open loops’ silently drain us and we don’t even realise it, and how closing these open loops - completing pending tasks or dealing with unresolved problems - frees up our mental bandwidth and contributes towards us restoring our energy.
+- I think about how our ‘open loops’ silently drain us and we don’t even realise it, and how closing these open loops - completing pending tasks or dealing with unresolved problems - frees up our mental bandwidth and contributes towards us restoring our energy.
 - I think about how people underestimate how much it really costs to leave micro-tasks unresolved.
